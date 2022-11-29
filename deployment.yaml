@@ -8,7 +8,7 @@ spec:
     targetPort: 8080
     protocol: TCP
     name: http
-  type: NodePort
+  type: LoadBalancer
   selector:
       type: node
 ---
@@ -31,4 +31,4 @@ spec:
       spec:
         containers:
          - name: node
-           image: bhargav933/node-app
+           image: bhargav933/node-app:7
