@@ -31,4 +31,4 @@ spec:
       spec:
         containers:
          - name: node
-           image: bhargav933/node-app:7
+           image: bhargav933/node-app:build_number
